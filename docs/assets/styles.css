@@ -224,6 +224,10 @@ p {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid.three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .quick-links {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -348,6 +352,7 @@ p {
   }
 
   .grid.two,
+  .grid.three,
   .quick-links {
     grid-template-columns: 1fr;
   }
